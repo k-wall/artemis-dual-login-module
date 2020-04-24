@@ -144,7 +144,7 @@ under the License.
                     See https://issues.apache.org/jira/browse/ARTEMIS-1644 for more information. -->
 
          <!-- Acceptor for every supported protocol -->
-         <acceptor name="artemis">tcp://0.0.0.0:61616?sslEnabled=true;keyStorePath=/tmp/artemis/server-side-keystore.jks;keyStorePassword=secureexample;trustStorePath=/tmp/artemis/server-side-truststore.jks;trustStorePassword=secureexample;tcpSendBufferSize=1048576;tcpReceiveBufferSize=1048576;protocols=CORE,AMQP,STOMP,HORNETQ,MQTT,OPENWIRE;useEpoll=true;amqpCredits=1000;amqpLowCredits=300;amqpDuplicateDetection=true;needClientAuth=true</acceptor>
+         <acceptor name="artemis">tcp://0.0.0.0:61616?sslEnabled=true;keyStorePath=/tmp/artemis/server-side-keystore.jks;keyStorePassword=secureexample;trustStorePath=/tmp/artemis/server-side-truststore.jks;trustStorePassword=secureexample;tcpSendBufferSize=1048576;tcpReceiveBufferSize=1048576;protocols=CORE,AMQP,STOMP,HORNETQ,MQTT,OPENWIRE;useEpoll=true;amqpCredits=1000;amqpLowCredits=300;amqpDuplicateDetection=true;needClientAuth=true;saslMechanisms=EXTERNAL</acceptor>
 
 
 
